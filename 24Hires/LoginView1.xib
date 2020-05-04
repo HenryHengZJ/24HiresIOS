@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoginView" customModule="JobIn24" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginpic1" translatesAutoresizingMaskIntoConstraints="NO" id="cay-SR-2kc" customClass="ImageViewWithGradient" customModule="JobIn24" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="SEARCH, APPLY AND HIRE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0aa-Yf-L1m">
+                    <rect key="frame" x="60" y="162" width="254" height="63"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Design specifically to cater job needs in retail, event, promoter and more" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5e-s2-9UP">
+                    <rect key="frame" x="16" y="204" width="343" height="57"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0aa-Yf-L1m" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="162" id="E3u-la-HSb"/>
+                <constraint firstItem="t5e-s2-9UP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="NWm-j2-gPJ"/>
+                <constraint firstAttribute="trailing" secondItem="t5e-s2-9UP" secondAttribute="trailing" constant="16" id="Xj6-aO-G5Q"/>
+                <constraint firstItem="cay-SR-2kc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="YSx-46-itc"/>
+                <constraint firstItem="t5e-s2-9UP" firstAttribute="top" secondItem="0aa-Yf-L1m" secondAttribute="bottom" constant="18" id="YYz-IL-CE4"/>
+                <constraint firstAttribute="bottom" secondItem="t5e-s2-9UP" secondAttribute="bottom" constant="406" id="bVJ-E4-fe7"/>
+                <constraint firstItem="cay-SR-2kc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fok-PY-1qj"/>
+                <constraint firstAttribute="trailing" secondItem="0aa-Yf-L1m" secondAttribute="trailing" constant="61" id="g40-oe-5QU"/>
+                <constraint firstAttribute="trailing" secondItem="cay-SR-2kc" secondAttribute="trailing" id="hYx-zc-thK"/>
+                <constraint firstItem="0aa-Yf-L1m" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="60" id="klO-Ct-Jrm"/>
+                <constraint firstAttribute="bottom" secondItem="cay-SR-2kc" secondAttribute="bottom" id="o7p-4m-hOJ"/>
+            </constraints>
+            <connections>
+                <outlet property="descripLabel" destination="t5e-s2-9UP" id="aaE-g2-riU"/>
+                <outlet property="loginPic" destination="cay-SR-2kc" id="peJ-CB-iGD"/>
+                <outlet property="titleLabel" destination="0aa-Yf-L1m" id="Gaw-VB-X8g"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="loginpic1" width="470" height="313"/>
+    </resources>
+</document>

@@ -1,0 +1,46 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+
+target '24Hires' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  pod 'Firebase/DynamicLinks'
+  pod 'SDWebImage'
+  pod 'NVActivityIndicatorView'
+  pod 'AAViewAnimator'
+  pod 'SKPhotoBrowser'
+  pod 'UICircularProgressRing'
+  pod 'GeoFire'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKShareKit'
+  pod 'FBSDKLoginKit'
+  pod 'GooglePlaces'
+  pod 'GooglePlacePicker'
+  pod 'GoogleSignIn'
+  pod 'Cosmos'
+  pod 'GoogleMaps'
+  pod 'CircleProgressView'
+  pod 'IQKeyboardManagerSwift'
+  pod 'FirebaseUI/Database'
+  pod 'FirebaseUI/Storage' 
+  pod 'FirebaseUI/Auth'
+  pod 'FirebaseUI/Facebook'
+  pod 'FirebaseUI/Google'
+  pod 'FirebaseUI/Phone'
+  pod 'RevealingSplashView'
+  pod 'Koyomi'
+  pod 'Toast-Swift'
+  pod 'BetterSegmentedControl'
+  pod 'BEMCheckBox'
+  pod 'RSKImageCropper'
+  pod 'Fabric'
+  pod 'Crashlytics'
+
+end

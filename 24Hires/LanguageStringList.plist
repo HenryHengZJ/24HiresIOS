@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>English</key>
+	<dict>
+		<key>label_anonymous</key>
+		<string>Skip</string>
+		<key>createacc</key>
+		<string>No Account? @ one here</string>
+		<key>label_createaccount</key>
+		<string>Create</string>
+		<key>label_email</key>
+		<string>Email</string>
+		<key>label_fb</key>
+		<string>Continue with Facebook</string>
+		<key>label_google</key>
+		<string>Continue with Google</string>
+		<key>label_login</key>
+		<string>Login</string>
+		<key>label_privatepolicy</key>
+		<string>Private Policy</string>
+		<key>label_reset</key>
+		<string>RESET</string>
+		<key>label_resetpsw</key>
+		<string>Reset Password</string>
+		<key>label_resetpsw2</key>
+		<string>Your registered email:</string>
+		<key>label_tnc</key>
+		<string>Terms of Use</string>
+		<key>login_title1</key>
+		<string>ALL IN ONE</string>
+		<key>login_title2</key>
+		<string>24 HOUR REPLY</string>
+		<key>login_title3</key>
+		<string>IN-APP CHAT</string>
+		<key>login_title4</key>
+		<string>SEARCH NEARBY</string>
+		<key>login_msg1</key>
+		<string>An all in one platform for freelancers and employers to find jobs and talents</string>
+		<key>login_msg2</key>
+		<string>Apply job and hear back in 24 hours! We will notify your application status after 24 hours</string>
+		<key>login_msg3</key>
+		<string>Chat directly with employer or employee without exposing your personal contacts</string>
+		<key>login_msg4</key>
+		<string>Having transportation problem? Don&apos;t worry, use the in-app nearby jobs functionality!</string>
+		<key>resetpsw_emptyemail</key>
+		<string>Please enter your email.</string>
+		<key>resetpsw_success</key>
+		<string></string>
+		<key>signin_invalidsignin</key>
+		<string>You have entered an invalid email or password. Please try again.</string>
+		<key>signin_emailnotverified</key>
+		<string>Please verify your email.</string>
+		<key>signin_emptyfield</key>
+		<string>Please enter Email and Password</string>
+		<key>signup_successful</key>
+		<string>An email has been sent to your registered email address to verify your account</string>
+		<key>signup_failed</key>
+		<string>An error has been encountered, Please Try Again.</string>
+		<key>update_Message</key>
+		<string>There is a new version of 24Hires!</string>
+		<key>msg_tnc</key>
+		<string>By signing up, you agree to our @ and #</string>
+		<key>searchCategories_NoJobMsg1</key>
+		<string>Sorry, it looks like there aren&apos;t any jobs related to</string>
+		<key>searchCategories_NoJobMsg2</key>
+		<string>available in </string>
+	</dict>
+</dict>
+</plist>
